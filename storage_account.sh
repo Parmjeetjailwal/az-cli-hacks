@@ -28,7 +28,7 @@ az storage blob service-properties update --account-name $STORAGE_ACCOUNT_NAME -
 echo "\nUploading Files...." 
 
 # Upload Static Content in $web container
-az storage blob upload-batch --account-name $STORAGE_ACCOUNT_NAME -s <Enter the source path of your HTML files> -d '$web'
+az storage blob upload-batch --account-name $STORAGE_ACCOUNT_NAME -s </full/path/to/file> -d '$web'
 
 echo "\nAll files uploded Successfully...."
 
